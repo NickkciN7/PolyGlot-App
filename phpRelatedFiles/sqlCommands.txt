@@ -1,0 +1,49 @@
+sql:
+
+create user table:
+
+CREATE TABLE users
+(
+    userID int AUTO_INCREMENT NOT NULL,
+    userName VARCHAR(25) NOT NULL,
+    pWord VARCHAR(25) NOT NULL,
+    gender VARCHAR(6),
+    age int,
+    nativeLanguage VARCHAR(50),
+    bio VARCHAR(500),
+    primary key (userID)
+);
+
+
+create message table:
+
+
+CREATE TABLE messages
+(
+    messageID int AUTO_INCREMENT NOT NULL,
+    conversationID int,
+    userFrom int NOT NULL,
+    userTo int NOT NULL,
+    message VARCHAR(500),
+    primary key (messageID)
+);
+
+create conversation table:
+
+CREATE TABLE conversations
+(
+    conversationID int AUTO_INCREMENT NOT NULL,
+    user1 int NOT NULL,
+    user2 int NOT NULL,
+    lastMessageID int,
+    primary key (conversationID)
+);
+
+
+
+
+
+insert time:
+INSERT INTO `messages`(`conversationID`, `userFrom`, `userTo`, `message`, `timeSent`) 
+VALUES (1, 1, 2, 'hey', CURRENT_TIMESTAMP)
+2020-11-27 19:19:33
