@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.polyglot">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/homescreen_world"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".userProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LogIn_SignUp_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".userProfileEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".messageListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".messageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".partnerProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".searchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

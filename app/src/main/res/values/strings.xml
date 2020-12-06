@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Polyglot</string>
+
+    <string-array name="language_array">
+        <item>--Select--</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>--Select--</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Users_English">
+        <item>E1`Steve`English`profpic_english_1`Hey guys I love saving people! Let\'s talk about super heroes!</item>
+        <item>E2`Will`English`profpic_english_2`I\'m a huge fan of movies. What\'s your favorite movie?</item>
+        <item>E3`Sarah`English`profpic_english_3`Full time model. Let\'s talk about clothing.</item>
+        <item>E4`Fred`English`profpic_english_4`Hey guys let\'s talk about music!</item>
+        <item>E5`Steve`English`profpic_english_5`Talk show host! You guys watch my show?</item>
+        <item>E6`Thanos`English`profpic_english_6`Thinking about getting all the infinity stones. Anyone want to help?</item>
+        <item>E7`John`English`profpic_english_7`Crime solver. How you guys doing today?</item>
+        <item>E8`Widow`English`profpic_english_8`Hey have you guys seen Steve on here?</item>
+        <item>E9`Stark`English`profpic_english_9`Technology enthusiast</item>
+        <item>E10`Rock`English`profpic_english_10`Yes those are spiders on me</item>
+    </string-array>
+
+    <string-array name="Users_Spanish">
+        <item>S1`Christiano`Spanish`profpic_spanish_1`I love playing soccer. What sport do you like to play?</item>
+        <item>S2`Carlos`Spanish`profpic_spanish_2`Lets get to know each other.</item>
+        <item>S3`Bella`Spanish`profpic_spanish_3`Hey there! Message me and let\'s learn languages.</item>
+    </string-array>
+
+    <string-array name="Users_French">
+        <item>F1`Lauren`French`profpic_french_1`We can maybe meet up for coffee and practice speaking?</item>
+        <item>F2`Jason`French`profpic_french_2`Oui Oui</item>
+        <item>F3`French user 3`French`profpic_french_1`French bio 3</item>
+        <item>F4`Jacques`French`profpic_french_3`I solve crimes!!</item>
+        <item>F5`French user 5`French`profpic_french_1`French bio 5</item>
+        <item>F6`French user 6`French`profpic_french_1`French bio 6</item>
+    </string-array>
+
+    <string-array name="Users_German">
+        <item>G1`Dirk`German`profpic_german_1`Let\'s talk about basketball</item>
+        <item>G2`Leah`German`profpic_german_2`Wie geht es Ihnen?</item>
+        <item>G3`German user 3`German`profpic_german_2`German bio</item>
+        <item>G4`German user 4`German`profpic_german_2`German bio</item>
+        <item>G5`German user 5`German`profpic_german_2`German bio</item>
+        <item>G6`German user 6`German`profpic_german_2`German bio</item>
+        <item>G7`German user 7`German`profpic_german_2`German bio</item>
+        <item>G8`German user 8`German`profpic_german_2`German bio</item>
+        <item>G9`German user 9`German`profpic_german_2`German bio</item>
+        <item>G10`German user 10`German`profpic_german_2`German bio</item>
+        <item>G11`German user 11`German`profpic_german_2`German bio</item>
+        <item>G12`German user 12`German`profpic_german_2`German bio</item>
+        <item>G13`German user 13`German`profpic_german_2`German bio</item>
+        <item>G14`German user 14`German`profpic_german_2`German bio</item>
+        <item>G15`German user 15`German`profpic_german_2`German bio</item>
+        <item>G16`German user 16`German`profpic_german_2`German bio</item>
+        <item>G17`German user 17`German`profpic_german_2`German bio</item>
+
+    </string-array>
+
+    <string name="E1Message">Hey!`Hey!`I see you speak English`Indeed I do. Do you want to learn?`Yeah I would love to.`Great, so where are you from?`I\'m from Germany`Oh cool, I have been there once`a`a`a
+        `TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`
+        TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL`TO DISPLAY SCROLL
+    </string>
+
+</resources>
